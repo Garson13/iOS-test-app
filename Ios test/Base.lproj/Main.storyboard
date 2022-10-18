@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VcW-AM-NP8">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="822-uk-LgH">
+            <objects>
+                <viewController id="5xu-wg-Skd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5qu-Zz-y7T">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="08i-W4-yVu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Контакты" id="cmf-sz-Fdb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nI2-fI-b4E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815.38461538461536" y="403.79146919431275"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vgd-n2-dst">
+            <objects>
+                <viewController id="ekf-O1-rGT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DTY-dS-ChN">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9Tg-gu-6RI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Профиль" id="nKC-mn-gb0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kOr-b3-e8N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815" y="1173"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x5U-TI-Jrp">
+            <objects>
+                <viewController id="h9f-MQ-xDs" customClass="ViewController" customModule="Ios_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q65-gS-pJA">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="753"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tH2-Wz-ylP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B67-F0-4Xb">
+                        <leftBarButtonItems>
+                            <barButtonItem title="Москва" id="BsD-fJ-YPS">
+                                <color key="tintColor" systemColor="labelColor"/>
+                            </barButtonItem>
+                            <barButtonItem title="Item" id="gjz-WE-0Mb">
+                                <imageReference key="image" image="chevron.down" catalog="system" symbolScale="small" renderingMode="original"/>
+                                <inset key="imageInsets" minX="-25" minY="0.0" maxX="10" maxY="0.0"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Pd-5O-lM8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.84615384615384" y="-284.36018957345971"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Kvt-0N-k3d">
+            <objects>
+                <tabBarController id="VcW-AM-NP8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Art-Ig-Gzo">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="43W-tF-KKz" kind="relationship" relationship="viewControllers" id="VYp-gn-i8R"/>
+                        <segue destination="5xu-wg-Skd" kind="relationship" relationship="viewControllers" id="uAG-Kc-PwW"/>
+                        <segue destination="ekf-O1-rGT" kind="relationship" relationship="viewControllers" id="qGi-x5-nZX"/>
+                        <segue destination="uTb-NZ-O4s" kind="relationship" relationship="viewControllers" id="G7v-GT-o25"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rsv-zY-OcN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2117" y="456"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="t1K-lG-vFC">
+            <objects>
+                <viewController id="uTb-NZ-O4s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7K4-BT-EWV">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pcd-rh-5eU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Корзина" id="JDV-4G-3Id"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9H-jj-gp0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815" y="1879"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VJe-gk-U3x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="43W-tF-KKz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Меню" id="GY5-L1-H4V"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="0il-VV-iBk">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h9f-MQ-xDs" kind="relationship" relationship="rootViewController" id="vLi-PO-iQ9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CvO-xJ-aUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815.38461538461536" y="-284.36018957345971"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <image name="Контакты" width="51" height="39"/>
+        <image name="Корзина" width="51" height="38"/>
+        <image name="Меню" width="36" height="40"/>
+        <image name="Профиль" width="47" height="37"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
